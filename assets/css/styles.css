@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  font-size: 39px;
+
+  @media (max-width: 418px) {
+    .navbar {
+      background-color: rgba(255, 255, 255, 0.5);
+      /* establecemos el color de fondo con un 50% de transparencia */
+    }
+  }
+ 
+}
+.carousel-indicators {
+  top: 105%;
+}
+.carousel-indicators li {
+  background-color: #373a3c;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+}
+
+.footer{
+ width: auto;   
+
+}
+
+.titulo{
+  color: black;
+}
+.cambiante {
+  color: red;
+}
+
+
+.underline {
+  text-decoration: underline;
+
+}
+
+.borde{
+
+  border-top-width: 10px
+}
+
+body{font-family: 'Josefin Sans', sans-serif;
+background-color: white;
+overflow-x: hidden;
+
+}
+.yellow2{background-color:goldenrod}
+.rojo:hover{color:red}
+.blue:hover{color:blue}
+.yellow:hover{color:goldenrod}
+.rosado:hover{color:rgb(191, 130, 248)   }
+.violeta:hover{ background-color:rgb(104, 10, 104);
+  color: white;}
+.verde:hover{
+  background-color: green;
+  color: white;
+}
+.verde2{background-color:green}
+.fa-brands:hover{color: gold
+
+}
+
+.gold:hover{
+color: gold;
+
+}
+
+
+
+.barrita{
+  background-color: transparent ;
+  
+}
+
+.barrita:hover{
+
+background-color: violet;
+
+}
+
+body{ width: auto;
+
+
+}
+.opaco{
+ 
+ background-color: transparent
+
+}
+
+.opaco:hover{
+
+  background-color: white;
+
+
+}
+
+.cart-summary {
+  position: fixed;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top: 1px solid #ccc;
+  max-height: 380px; /* altura máxima ajustada */
+  overflow-y: scroll; /* agregar barras de desplazamiento */
+  padding: 10px;
+  width: 50%;
+}
+
+@media only screen and (max-width: 450px) {
+  .cart-summary {
+    height: auto;
+    min-height: 220px;
+    max-height: 80%;
+  }
+}
+
+
+ 
+
+.fuente{
+
+color: black;
+font-weight:bold
+}
+
+.cart-summary {
+  position: fixed;
+  bottom: -12%;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-summary:hover{
+  position: fixed;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.altura{
+  height: 8rem;
+
+}
+
+.btn-danger:active{
+ background-color: green
+
+}
+
+.abierto {
+  bottom: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 0;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  text-align: center;
+}
+
+.service img {
+  max-width: 100%;
+  height: auto;
+}
+
+.service h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-nav .nav-link:focus {
+  background-color: transparent !important;
+}
+
+.navbar-nav .nav-link {
+  color: #333; /* cambia el valor del color a tu gusto */
+}
+
+.pacifico{
+
+  font-family: 'Pacifico', cursive;
+
+}
+
+.webpay-btn {
+  background: url('https://png.pngtree.com/element_our/md/20180626/md_5b321c98efaa6.jpg')
+  no-repeat center;
+  background-size: contain;
+  padding-left: 50px; /* ajusta este valor según sea necesario */
+  height: 150px; /* ajusta este valor según sea necesario */
+  width: 150px; /* ajusta este valor según sea necesario */
+  border: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
